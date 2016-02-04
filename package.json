@@ -1,0 +1,25 @@
+{
+  "author": "Peter Lyons <pete@peterlyons.com> (http://peterlyons.com/)",
+  "dependencies": {
+    "async": "1.5.2",
+    "dotenv": "1.2.0",
+    "ejs": "2.3.4",
+    "express": "4.13.3",
+    "mongodb": "2.1.4"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4",
+    "node-dev": "2.7.1",
+    "supertest": "1.1.0",
+    "supertest-session": "2.0.1"
+  },
+  "license": "MIT",
+  "name": "mongodb-sessions",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "version": "1.0.0"
+}
