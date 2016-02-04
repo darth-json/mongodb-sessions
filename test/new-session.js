@@ -15,7 +15,6 @@ describe('the home page', function () {
     request.get('/').expect(200).end((err, res) =>{
       var $ = cheerio.load(res.text);
       var html = $('div.login').html()
-      console.log(html);
       expect(html).not.to.be.null;
       done();
     });
