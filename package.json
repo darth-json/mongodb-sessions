@@ -11,6 +11,7 @@
     "chai": "3.4.1",
     "mocha": "2.3.4",
     "node-dev": "2.7.1",
+    "nodemon": "^1.8.1",
     "supertest": "1.1.0",
     "supertest-session": "2.0.1"
   },
@@ -18,8 +19,9 @@
   "name": "mongodb-sessions",
   "private": true,
   "scripts": {
-    "test": "mocha",
-    "start": "node server.js"
+    "lint": "standard",
+    "start": "./node_modules/.bin/nodemon ./src/app.js",
+    "test": "./node_modules/.bin/nodemon ./node_modules/.bin/mocha -G --recursive test/"
   },
   "version": "1.0.0"
 }
