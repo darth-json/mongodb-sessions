@@ -9,7 +9,6 @@ var schema = mongoose.Schema({
   // define a passwordHash property with type String
   // make sure it is required
   // tell mongoose not to select it by default
-}
 })
 schema.methods.setPassword = function setPassword (clear, callback) {
   // return a promise
