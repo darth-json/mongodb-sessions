@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "chai": "3.4.1",
+    "cheerio": "^0.20.0",
     "mocha": "2.3.4",
     "node-dev": "2.7.1",
     "nodemon": "^1.8.1",
